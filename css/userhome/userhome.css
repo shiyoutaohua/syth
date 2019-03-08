@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+.mainbox{width: 1000px; height: 900px; position: absolute; top: 170px; left: 0; right: 0; margin: 0 auto;}
+
+.mainbox .admin-menu{width: 180px; height: 880px; position: absolute; top: 20px; font-size: 14px; background: url(../../images/userhome/menu_bg.png) repeat-y;}
+
+.admin-menu .icon{display: inline-block; width: 20px; height: 20px; background-repeat: no-repeat; margin: 8px 9px 9px 15px; float: left;}
+
+.admin-menu ul {height: 145px; border-bottom: 1px solid #ccccce;}
+
+.admin-menu ul li a{width: 180px; height: 32px; display: inline-block; width: 177px; padding-left: 3px; font-size: 14px;}
+
+.admin-menu ul li a:hover{color: #666; text-decoration: none; background-size: contain; width: 176px; box-sizing: content-box; background: rgba(245,245,245,0.9);}
+
+.admin-menu ul li{width: 180px; height: 32px; margin: 2px 0; float: left; vertical-align: middle;}
+
+.admin-menu ul li .selected{width: 180px; box-sizing: content-box; background: rgba(245,245,245,0.7); padding-left: 0; border-left: 3px solid #ff8800;}
+
+.admin-menu ul .title{width: 80px; height: 35px; line-height: 35px; font-weight: bold; color: #666; white-space: nowrap; word-wrap: normal; overflow: hidden; -o-text-overflow: ellipsis; text-overflow:ellipsis; display: inline-block; float: left;}
+
+.admin-menu ul .mybadge-menu{font-size: 10px; min-width: 15px; text-align: center; color: #fff; margin-top: 7px; display: inline-block; padding: 2px; background-color: #ffafc9; border-radius: 7px;}
+
+.admin-menu .tinybox{width: 145px; height: 67px; margin: 20px auto 0;}
+
+.admin-menu p{text-align: center; color: #999;}
+
+.mainbox .content-menu{width: 820px; height: 880px; padding: 30px 20px; background-color: #fff; position: absolute; top: 20px; left: 180px;}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* --------------全站页脚样式----------------------- */
+footer{height:320px; width:100%; position:absolute; top:2200px; background-color: #f6f9fa; padding-top: 40px;}
+
+.wrapgate-about{width:1200px; height:120px; position:absolute; left:50%; margin-left:-600px;}
+
+.wrapgate-about table td{width:370px; height:120px; border-right: 1px solid rgba(229,233,239,1.00); padding:0 40px 0 0; vertical-align: top;}
+
+.wrapgate-about table td span{display: block; float: left; width: 318px; color:#99a2aa; margin-bottom: 24px;}
+
+.wrapgate-about table td p{width: 92px; margin-bottom: 16px; color: rgba(34,34,34,1.00); float: left;}
+
+.wrapgate-about table td:nth-child(2){padding-left: 40px;}
+
+.wrapgate-about table td:nth-child(3){height: 90px; padding: 30px 0 0 40px; border: none;}
+
+.wrapgate-about table td:nth-child(3) div{margin:0 0 0 20px; border-radius:5px;}
+
+.wrapgate-about table td:nth-child(3) div:hover{color:rgb(0,161,214); cursor:pointer;}
+
+.wrapgate-about table td:nth-child(3) img{border-radius:5px 5px 0 0;}
+
+.wrapgate-about table td:nth-child(3) p{width:136px; height:18px; border-bottom:1px rgba(153,153,153,0.4) solid; margin:0; padding:0; text-align:center; line-height:18px; color:rgba(153,153,153,0.4);}
+
+.wrapgate-about .app-download{width:60px; height:96px; display:inline-block;text-align: center;}
+
+.wrapgate-about .app-download i{display:inline-block; width:60px; height:60px; background-image:url(../images/icons.png); background-position:-1090px -194px;}
+
+.wrapgate-about #app-download{width:136px; height:162px; position:absolute; top:-155px; right:195px; z-index:1; margin:0; display:none;}
+
+.wrapgate-about .qq{width:60px; height:96px; display:inline-block; text-align: center;}
+
+.wrapgate-about .qq i{display:inline-block; width:60px; height:60px; background-image:url(../images/icons.png); background-position:-955px -67px;}
+
+.wrapgate-about #qq{width:136px; height:162px; position:absolute; top:-155px; right:105px; z-index:1; margin:0; display:none;}
+
+.wrapgate-about .wechat{width:60px; height:96px; display:inline-block;text-align: center;}
+
+.wrapgate-about .wechat i{display:inline-block; width:60px; height:60px; background-image:url(../images/icons.png); background-position:-1024px -65px;}
+
+.wrapgate-about #wechat{width:136px; height:162px; position:absolute; top:-155px; right:25px; z-index:1; margin:0; display:none;}
+
+.copyright{width:1200px; height:120px; position:absolute; top:170px; left:50%; margin:30px -600px; font-size: 12px; }
+
+.copyright p{color:#99a2aa; margin:6px 0;}

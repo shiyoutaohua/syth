@@ -1,0 +1,69 @@
+/* CSS Document */
+.mainbox-content {width: 780px; height: 820px; position: absolute;}
+
+.user-info{width: 780px; height: 130px;}
+
+.user-info .user-ico{position: absolute; z-index: 1;}
+
+.user-info .user-ico img{border-radius: 120px;}
+
+.user-info .detail{width: 640px; height: 150px; margin-left: 140px;}
+
+.user-info .detail span{display: inline-block;}
+
+.user-info .detail .first-row{width:auto; height: 35px;}
+
+.user-info .detail .first-row .nickname{height: inherit; max-width: 300px; white-space: nowrap; font-size: 22px; overflow: hidden; text-overflow: ellipsis; float: left;}
+
+.user-info .detail .first-row .username{font-size: 14px; color: #999; padding-right: 12px; background: url(../../images/userhome/female.png) center right no-repeat; float: left; margin-top: 8px;}
+
+.user-info .detail .first-row .alter-nickname{display: inline-block; padding-left: 16px; background: url(../../images/userhome/alter-nickname.png) center left no-repeat; float: left; margin: 10px auto auto 30px; color: #0099ff;}
+
+.user-info .detail .second-row{width:auto; height: 32px; padding-top: 6px;}
+
+.user-info .detail .second-row .user-age{padding: 0 20px 0 18px; color: #777; background: url(../../images/userhome/age-ico.png) center left no-repeat;}
+
+.user-info .detail .second-row .user-address{padding: 0 20px 0 15px; color: #777; background: url(../../images/userhome/address-ico.png) center left no-repeat;}
+
+.user-info .detail .second-row .user-motto{padding: 0 15px 0 15px; color: #777; background: url(../../images/userhome/motto-ico.png) center left no-repeat;}
+
+.user-info .detail .second-row .edit-info{padding-left: 16px; background: url(../../images/userhome/edit-info-ico.png) center left no-repeat; color: #0099ff;}
+
+.user-info .detail .third-row{width:auto; height: 32px;}
+
+.user-info .detail .fourth-row{width:auto; height: 32px;}
+
+
+
+
+
+
+.user-info .accoun-manage{width: 780px; height: 400px;}
+
+.user-info .accoun-manage .header{width:780px; height: 35px; padding-bottom: 5px; margin-top: 10px;}
+
+.user-info .accoun-manage .header h4{width: 60px; margin: 0; padding: 0; font-size: 14px; font-weight: bold; float: left;}
+
+.user-info .accoun-manage .header em{font-style: normal; font-size: 12px; color: #777; float: left; padding-top: -5px;}
+
+.user-info .accoun-manage .body{width: 780px;}
+
+.user-info .accoun-manage .body a:hover{text-decoration: none; border-color: #ffce3d;}
+
+.user-info .accoun-manage .itembox{width: 330px; height: 39px; display: inline-block; box-sizing: content-box; float: left; padding: 20px; margin: 0 18px 18px 0; border: 1px #F0F0F2 solid; border-radius: 5px;}
+
+.user-info .accoun-manage .itembox .i-left{display: inline-block; width: 30px; height: 39px; margin-right: 8px; background-repeat: no-repeat;} 
+
+.user-info .accoun-manage .itembox .i-right{display: inline-block; width: 24px; height: 24px; background-image: url(../../images/userhome/go-ico.png); float: right; margin-top: 7px;}
+
+.user-info .accoun-manage .itembox .msm{display: inline-block;}
+
+.user-info .accoun-manage .itembox .msm p{padding: 0; margin: 0; overflow: hidden; text-overflow: ellipsis;}
+
+.user-info .accoun-manage .itembox .msm .msm1{font-weight: bold;}
+
+.user-info .accoun-manage .itembox .msm .msm2{margin-top: 5px;}
+
+
+
+

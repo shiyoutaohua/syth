@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mainbox{width: 1200px; height: 500px; position: absolute; top: 170px; left: 0; right: 0; margin: 0 auto;}
+
+.mainbox .titile-bar{width: 100%; height: 60px;}
+
+.mainbox .titile-bar h1{display: block; width:76px; height: 44px; line-height: 44px; font-size: 38px; font-weight: 400; float: left; color: rgba(102,102,102,1.00)}
+
+.mainbox .titile-bar .left-and-right{width:482px; height: 30px; margin: 0 40px; border-bottom: 1px rgba(221,221,221,1.00) solid; float: left;}
+
+.mainbox .content{width: 100%; height: 360px; padding-top: 30px;}
+
+.mainbox .content .left{width: 599px; height: 360px; margin-top: -10px; border-right: 1px solid rgb(221,221,221); float: left; background-color: #ee9e9b;}
+
+.mainbox .content .right{width: 550px; height: 360px; padding-left: 50px; float: left;}
+
+.mainbox .content .right ul{width: 490px; position: absolute; top: 80px;}
+
+.mainbox .content .right li{width: 450px; height: 66px;}
+
+.mainbox .content .right li input{width:428px; padding: 10px; border: rgb(221,221,221) solid 1px; border-radius: 4px; color: rgb(170,170,170);}
+
+.mainbox .content .right li i{width: 40px; height: 40px; display: inline-block; position: absolute; right: 0;}
+
+.mainbox .content .right li:nth-child(1) i{}
+
+.mainbox .content .right li:nth-child(2) i{top: 67px;}
+
+.mainbox .content .right li:nth-child(3){background-color: rgba(168,162,162,0.60);}
+
+.mainbox .content .right li:nth-child(4){width: 430px; height: 20px; padding-right: 20px; text-align: left; color: rgb(113,113,113);}
+
+.mainbox .content .right li:nth-child(4) input{width: 30px; text-align: left;}
+
+.mainbox .content .right li:nth-child(4) span{display: inline-block; margin-left: 15px; color: rgb(187,187,187);}
+
+.mainbox .content .right li:nth-child(4) a{display: inline-block; float: right; color: rgb(0,161,214); margin-left: 10px;}
+
+.mainbox .content .right li:nth-child(4) a:hover{color: rgba(242,93,142,1.00)}
+
+.mainbox .content .right li p{height: 20px; line-height: 20px; padding-left: 5px; font-weight: 400px; color: rgb(240,100,149);}
+
+.mainbox .content .right li button{width: 184px; height: 36px; background-color: rgb(0,190,231); color: #FFF; font-size: 14px; font-weight: 400; margin: 10px auto 0 25px; border: 1px rgb(3,129,170) solid; border-radius: 2px; text-align: center; line-height: 36px;}
+
+.mainbox .content .right li button:nth-child(2){background-color: #FFF; border-color: rgb(204,204,204); color:rgb(85,85,85);}
+
+.mainbox .content .right li button:hover{cursor: pointer;}
+
+.mainbox .content .right li:nth-child(6){height: 24px; color: #717171;}
+
+.mainbox .content .right li:nth-child(6) .qq-login:before{display: inline-block; width: 24px; height: 24px; background-image: url(../images/icons.png); background-position:-784px -758px; content: ""; margin:0 5px -7px 0;}
+
+.mainbox .content .right li:nth-child(6) .wechat-login:before{display: inline-block; width: 24px; height: 24px; background-image: url(../images/icons.png); background-position:-718px -758px; content: ""; margin:0 5px -7px 0;}
+
+
+
+
+
+
+
+

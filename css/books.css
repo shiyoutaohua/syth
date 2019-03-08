@@ -1,0 +1,100 @@
+@charset "utf-8";
+/* -----------------书籍信息页面样式-------------------------- */
+
+* button p{margin:0; padding:0; color:rgba(34,34,34,1);}
+
+a{color:rgba(34,34,34,1); text-decoration:none; cursor:pointer;}
+
+body{font-size:12px; width:100%; height:100%; margin:0; padding:0;}
+
+ul{padding:0; margin:0; list-style-type:none;}
+
+/* -----------------标签header内的样式-------------------------- */
+
+header{width:100%; height:229px;}
+
+header .minitop{height:42px; background-color:rgba(255,255,255,0.4); box-shadow:rgba(0, 0, 0, 0.1) 0px 1px 2px 0px; margin:auto; line-height:15px; font-weight:400; position:absolute; top:0; left:0; right:0; margin:0 auto; z-index:1;}
+
+header .minitop .box1{width:1200px; height:42px; position:absolute; top:0; left:0; right:0; bottom:0; margin:0 auto;}
+
+header .minitop ul li{padding:0 11px; float:left; line-height:42px;}
+
+header .minitop ul li:hover{background-color:rgba(225,225,225,0.4);}
+
+header .minitop ul .li_1{padding-left:0;}
+
+header .topbox{height:170px; position:absolute; top:0; left:0; right:0; margin:0 auto; background-image:url(../images/bg_header_index.png); background-repeat:no-repeat; background-size:cover;}
+
+header .log_search{width:1200px; height:170px; position:absolute; top:0px; left:0; right:0; margin:auto;}
+
+header .log_search .log{width:220px; height:105px; position:absolute; top:55px; left:24px; right:916px; bottom:10px; display:block; background-color:rgba(204,204,153,1);}
+
+header .log_search .search_newest{width:342px; height:36px; position:absolute; top:114px; right:0; bottom:20px; background-color:rgba(0,0,0,0.12); border-radius:6px;}
+
+header .log_search .search_newest .newest{width:68px; height:32px; position:absolute; top:2px; left:1px; right:auto; bottom:2px; border-radius:6px; background-color:rgba(255,255,255,0.7); font-size:14px; line-height:32px; background-image:url(../images/icons.png); background-position:-659px -655px;}
+
+header .log_search .search_newest .newest span{display:inline-block; color:rgb(242,93,142); margin-left:25px;}
+
+header .log_search .search_newest .search{width:270px; height:32px; position:absolute; top:2; left:auto; right:1px; bottom:2px; background-color:rgba(255,255,255,0.8); border-radius:6px;}
+
+header .log_search .search_newest .search input{width:200px; height:32px; border:none; padding:0 12px; border-bottom-left-radius:6px; border-top-left-radius:6px; background-color:rgba(255,255,255,0.1);}
+
+header .log_search .search_newest button{width:48px; height:32px; position:absolute; top:2px; left:294; right:0px; bottom:2px; background-attachment:scroll; background-image:url(../images/icons.png); background-position:-650px -722px; background-repeat:repeat; background-clip:padding-box; background-color:rgba(0,0,0,0); border:none;}
+
+header .log_search .search_newest button:hover{cursor:pointer; background-image:url(../images/icons.png); background-position:-715px -722px;}
+
+header nav{width:1200px; height:50px; position:absolute; top:170px; left:0; right:0; margin:0 auto 4px; padding-top:8px;} 
+
+header nav ul{list-style-type:none;}
+
+header nav li{width:36px; float:left; margin-left:35px;}
+
+header nav li:first-child{margin-left:0px; padding:0;}
+
+/*选择该元素的父类元素的第n个该元素 li:nth-child(n)*/
+header nav li:nth-child(1) span{margin-left:-5px;}
+
+header nav li:nth-child(2){margin-left:19px;}
+
+header nav li:nth-child(9){margin-left:390px;}
+
+header nav a{width:36px; height:48px; display:inline-block; text-align:center;}
+
+header nav span{display:inline-block; width:36px; background-color:#ffafc9; text-align:center; color:#FFF; border-radius:3px;}
+
+header nav .ico{display:inline-block; width:25px; height:16px; background-image:url(../images/icons.png); background-position:-85px -214px; background-clip:border-box; background-origin:border-box; background-color:rgba(255,255,255,0);}
+
+header nav li:nth-child(9) .ico{margin-left:-6px; margin-right:3px; background-position:-726px -1497px;}
+
+header nav li:nth-child(10) .ico{margin-left:-6px; background-position:-664px -920px; height:20px;}
+
+header nav li:nth-child(11) .ico{margin-left:-6px; background-position:-854px -1815px;}
+
+header nav li:nth-child(12) .ico{margin-left:-6px; background-position:-658px -2070px; height:21px; margin-right:5px;}
+
+header nav .nav-name{height:46px; margin:16px 0 -15px; padding-top:10px; text-align:center; position:absolute; top:0; color:rgba(34,34,34,1); font-size:12px;}
+
+
+/* -----------------主容器mainbox内的样式-------------------------- */
+
+.mainbox{width:1200px; height:1500px; position:absolute; top:229px; left:0; right:0; bottom:330px; margin:0 auto; border-radius:4px 4px 0 0;}
+
+.mainbox .box1{height:220px; position:absolute; top:0; left:0; right:0; background-color:rgba(255,102,255,0.5); border-radius:5px 5px 0 0;}
+
+.mainbox .box1 .slide{width:440px; height:220px; background-color:rgba(153,153,153,0.7); border-radius:5px 5px 0 0;}
+
+/*捐助box*/
+.mainbox .donate{width:280px; height:217px; position:absolute; top:-10px; right:-130px; background-color:#fff; border-radius:5px; display:none; z-index:99; box-shadow:rgba(0,0,0,0.16) 0 2px 4px;}
+
+.mainbox .donate p{width:265px; height:34px; line-height:34px; padding-left:15px; margin:0; background-color:#FFF; border-bottom:rgba(153,153,153,1) 1px solid;}
+
+.mainbox img{padding:0; margin:0; border:none;}
+
+.mainbox .donate p:nth-child(4){padding:0; border:none; text-align:center; color:#ee5485; font-weight:400;}
+
+
+
+
+
+
+

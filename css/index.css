@@ -1,0 +1,188 @@
+@charset "utf-8";
+/*---------------------主页样式----------------------------------*/
+/* -----------------主容器mainbox内的样式-------------------------- */
+
+.mainbox{width:1200px; height:1500px; position:absolute; top:229px; left:0; right:0; bottom:330px; margin:0 auto; border-radius:4px 4px 0 0;}
+
+.mainbox .box1{height:280px; position:absolute; top:0; left:0; right:0;}
+
+/* ----------------------------幻灯片box----------------------------- */
+.mainbox .box1 #slide_box{width:480px; height:280px; position:absolute; left:0; top:0 ;overflow:hidden; border-radius:5px;}
+
+.mainbox .box1 #slide_box .slide_img{display:inline-block; white-space:nowrap; height:280px; width:480; position:absolute; left:0; top:0;}
+
+.mainbox .box1 #slide_box .slide_img li{display:block; float:left; overflow:hidden;}
+
+.mainbox .box1 #slide_order{text-align:right; padding-right:1em; line-height:20px; position:absolute; right:0; bottom:6px;}
+
+.mainbox .box1 #slide_title{height:30px; text-align:left; font-size:14px; font-weight:400; color:#FFF; padding-left:1em; line-height:30px; position:absolute; left:0; bottom:6px;}
+
+/*系列号样式*/
+.mainbox .box1 #slide_order a{display:inline-block; padding:0 6px; float:left; margin-right:4px; border:1px solid #ddd; border-radius:4px; box-shadow:1px 1px 2px #333; background:#999; opacity:0.5; filter:alpha(opacity=50);}
+
+.mainbox .box1 #slide_order a:hover,#slide_order a.current{color:#FFF; font-weight:700; border-color:#000; background-color:#000;}
+
+.mainbox .box1 .box1_1{width:720px; height:280px; position:absolute; top:0; right:0;}
+
+.mainbox .box1 .box1_1 .tinybox{width:230px; height:135px; float:left; margin-left:10px; background-color:rgba(50,204,255,0.4); border-radius:5px;}
+
+.mainbox .box1 .box1_1 #tinybox1,#tinybox2,#tinybox3{margin-bottom:10px;}
+
+.mainbox .box1 .box1_1 img{width:98px; height:135px; border-radius:5px; float:left;}
+
+.mainbox .box1 .box1_1 .tinybox p{width:124px; float:left; margin:3px 0 3px 8px; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
+
+.mainbox .box1 .box1_1 .tinybox p:nth-child(2){margin-top:45px;}
+
+
+/*------------------------box2样式-------------------------------*/
+.mainbox .box2{width:1200px; height:230px; position:absolute; top:290px;}
+
+.mainbox .box2 .title-box{width:1200px; height:30px; margin-bottom:15px; line-height:24px;}
+
+.mainbox .box2 .title-box i:nth-child(1){display:inline-block; float:left; width:44px; height:40px; background-image:url(../images/icons.png); background-position:-198px -911px; margin:-10px 10px 0 0;}
+
+.mainbox .box2 .title-box i:nth-child(3){display:inline-block; float:left; width:44px; height:40px; background-image:url(../images/icons.png); background-position:-1230px -775px; margin:-10px 10px 0 0;}
+
+.mainbox .box2 .title-box span{display:inline-block; font-size:24px; font-weight:400; color:#000; float:left;}
+
+.mainbox .box2 .title-box .more{width:210px; padding-left:70px; height:30px; line-height:30px; background-color:rgba(229,233,239,1); float:right; border-radius:5px;}
+
+.mainbox .box2 .title-box .more em{font-style:normal; display:inline-block; padding:0 10px;}
+
+.mainbox .box2 .content-box{width:1200px; height:185px;}
+
+.mainbox .box2 .content-box .left-box{width:920px; height:168px; float:left;}
+
+.mainbox .box2 .content-box .left-box ul{width:111px; float:left; margin-right:20px;}
+
+.mainbox .box2 .content-box .left-box ul li{overflow: hidden; text-overflow:ellipsis; white-space: nowrap; height:23px; line-height:23px; padding:0 8px; background-color:rgba(255,153,255,0.5);}
+
+.mainbox .box2 .content-box .left-box ul li:first-child{padding:0 0 8px 0; color:#5b951b; font-weight: 400; border-radius:5px 5px 0 0;}
+
+.mainbox .box2 .content-box .left-box ul li:nth-child(7){border-radius:0 0 5px 5px;}
+
+.mainbox .box2 .content-box .right-box{width:262px; height:165px; background-image:url(../images/announcement.png); float:right; border-radius:5px; padding:10px 10px 10px 8px; text-overflow:ellipsis;}
+
+.mainbox .box2 .content-box .right-box h6{font-size:16px; color:#FFF;}
+
+.mainbox .box2 .content-box .right-box p{width:262px; font-size:13px; text-indent:2em; word-break:break-all; line-height:18px; letter-spacing:0.1em; color:#FFF;}
+
+/*------------------------box3样式-------------------------------*/
+.mainbox .box3{width:1200px; height:450px; position:absolute; top:530px;}
+
+.mainbox .box3 .title-box{width:897px; height:30px; margin-bottom:15px; line-height:24px; float:left; display:inline-block;}
+
+.mainbox .box3 .title-box i:nth-child(1){display:inline-block; float:left; width:44px; height:40px; background-image:url(../images/icons.png); background-position:-198px -974px; margin:-10px 10px 0 0;}
+
+.mainbox .box3 .title-box span{display:inline-block; font-size:24px; font-weight:400; color:#000; float:left;}
+
+.mainbox .box3 .title-box a{width:52px; height:22px; line-height:22px; border:rgb(204, 208, 215) 1px solid; border-radius:5px; float:right; text-align:right; color:rgb(204, 208, 215);}
+
+.mainbox .box3 .title-box a:nth-child(4){width:150px; margin-right:10px; text-align: center;}
+
+.mainbox .box3 .title-box a:hover{color:rgb(0,161,214); background-color:rgba(153,153,153,0.2);}
+
+.mainbox .box3 .content-box{width:897px; height:405px; float:left;}
+
+.mainbox .box3 .content-box .tinybox{width:171px; height:190px; float:left; margin:5px 10px 5px 0;}
+
+.mainbox .box3 .content-box .tinybox img{border-radius:5px;}
+
+.mainbox .box3 .content-box .tinybox:nth-child(5){margin-right:0;}
+
+.mainbox .box3 .content-box .tinybox:nth-child(10){margin-right:0;}
+
+.mainbox .box3 .content-box .tinybox p{width:151px; height:20px; font-size:12px; line-height:20px; text-align:center; padding:0 10px; overflow:hidden;}
+
+.mainbox .box3 .content-box .tinybox .price{width:151px; height:25px; line-height:18px; text-align:right; color:#999;}
+
+.mainbox .box3 .content-box .tinybox .price span{color:#ff4400; font-weight:600;}
+
+.mainbox .box3 .right{width:280px; height:450px; position:absolute; top:0; right:0; overflow: hidden;}
+
+.mainbox .box3 .right .tabs{width: 280px; height: 24px; margin-bottom: 25px;}
+
+.mainbox .box3 .right .tabs li{float: left; color: #000; margin-left: 12px; padding-top: 4px; line-height: 13px;}
+
+.mainbox .box3 .right .tabs li:first-child{margin: 0; font-size: 18px;}
+
+/*选中选项卡后动态添加的样式*/
+.mainbox .box3 .right .tabs .current-tab{margin: 0; border-bottom:1px solid #00a1d6; margin-left: 12px;}
+
+.mainbox .box3 .right .tabs .current-tab a{color: #00a1d6;}
+
+.mainbox .box3 .right .content{width: 280px; height: 401px; background-color:rgba(223,102,231,0.50);}
+
+.mainbox .box3 .right .content ul{position: absolute;}
+
+.mainbox .box3 .right .content li{display: block; float: left; width: 200px; height: 50px; background-color: antiquewhite;}
+/*------------------------box4样式-------------------------------*/
+
+.mainbox .box4{width:1200px; height:450px; position:absolute; top:1000px;}
+
+.mainbox .box4 .title-box{width:897px; height:30px; margin-bottom:15px; line-height:24px; float:left; display:inline-block;}
+
+.mainbox .box4 .title-box i:nth-child(1){display:inline-block; float:left; width:44px; height:40px; background-image:url(../images/icons.png); background-position:-198px -1035px; margin:-10px 10px 0 0;}
+
+.mainbox .box4 .title-box span{display:inline-block; font-size:24px; font-weight:400; color:#000; float:left;}
+
+.mainbox .box4 .title-box a{width:52px; height:22px; line-height:22px; border:rgb(204, 208, 215) 1px solid; border-radius:5px; float:right; text-align:right; color:rgb(204, 208, 215);}
+
+.mainbox .box4 .title-box a:nth-child(4){width:150px; margin-right:10px; text-align: center;}
+
+.mainbox .box4 .title-box a:hover{color:rgb(0,161,214); background-color:rgba(153,153,153,0.2);}
+
+.mainbox .box4 .content-box{width:897px; height:405px; float:left;}
+
+.mainbox .box4 .content-box .tinybox{width:171px; height:190px; float:left; margin:5px 10px 5px 0;}
+
+.mainbox .box4 .content-box .tinybox img{border-radius:5px;}
+
+.mainbox .box4 .content-box .tinybox:nth-child(5){margin-right:0;}
+
+.mainbox .box4 .content-box .tinybox:nth-child(10){margin-right:0;}
+
+.mainbox .box4 .content-box .tinybox p{width:151px; height:20px; font-size:12px; line-height:20px; text-align:center; padding:0 10px; overflow:hidden;}
+
+.mainbox .box4 .content-box .tinybox .price{width:151px; height:25px; line-height:18px; text-align:right; color:#999;}
+
+.mainbox .box4 .content-box .tinybox .price span{color:#ff4400; font-weight:600;}
+
+.mainbox .box4 .right{width:280px; height:450px; background-color:rgba(223,102,231,0.50); position:absolute; top:0; right:0;}
+
+/*------------------------box5样式 体育器材-------------------------------*/
+
+.mainbox .box5{width:1200px; height:450px; position:absolute; top:1500px;}
+
+.mainbox .box5 .title-box{width:897px; height:30px; margin-bottom:15px; line-height:24px; float:left; display:inline-block;}
+
+.mainbox .box5 .title-box i:nth-child(1){display:inline-block; float:left; width:44px; height:40px; background-image:url(../images/icons.png); background-position:-194px -1102px; margin:-10px 10px 0 0;}
+
+.mainbox .box5 .title-box span{display:inline-block; font-size:24px; font-weight:400; color:#000; float:left;}
+
+.mainbox .box5 .title-box a{width:52px; height:22px; line-height:22px; border:rgb(204, 208, 215) 1px solid; border-radius:5px; float:right; text-align:right; color:rgb(204, 208, 215);}
+
+.mainbox .box5 .title-box a:nth-child(4){width:150px; margin-right:10px; text-align: center;}
+
+.mainbox .box5 .title-box a:hover{color:rgb(0,161,214); background-color:rgba(153,153,153,0.2);}
+
+.mainbox .box5 .content-box{width:897px; height:405px; float:left;}
+
+.mainbox .box5 .content-box .tinybox{width:171px; height:190px; float:left; margin:5px 10px 5px 0;}
+
+.mainbox .box5 .content-box .tinybox img{border-radius:5px;}
+
+.mainbox .box5 .content-box .tinybox:nth-child(5){margin-right:0;}
+
+.mainbox .box5 .content-box .tinybox:nth-child(10){margin-right:0;}
+
+.mainbox .box5 .content-box .tinybox p{width:151px; height:20px; font-size:12px; line-height:20px; text-align:center; padding:0 10px; overflow:hidden;}
+
+.mainbox .box5 .content-box .tinybox .price{width:151px; height:25px; line-height:18px; text-align:right; color:#999;}
+
+.mainbox .box5 .content-box .tinybox .price span{color:#ff4400; font-weight:600;}
+
+.mainbox .box5 .right{width:280px; height:450px; background-color:rgba(223,102,231,0.50); position:absolute; top:0; right:0;}
+
+

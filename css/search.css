@@ -1,0 +1,10 @@
+/* CSS Document */
+
+.mainbox{width: 1200px; height: 550px; position: absolute; top: 230px; left: 0; right: 0; margin: 0 auto;}
+
+.list-group a{overflow: hidden; text-overflow: ellipsis;}
+
+.page-code{width: 1200px; height: 40px; position: absolute; bottom: 50px;}
+
+/* 不定宽度容器居中 */
+.page-code ul{display: table; margin: 0 auto;}
